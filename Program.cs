@@ -27,6 +27,7 @@ namespace KvadratnaJednadzba
             // qe.A = 10; - neće raditi jer je A svojstvo koje nema Set metodu!
             // nakon što stavimo, radi:
             qe.A = 15;
+            Console.ReadKey();
 
         }
     }

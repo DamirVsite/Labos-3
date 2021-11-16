@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KvadratnaJednadzba
 {
-    class QuadraticEquation
+    public class QuadraticEquation
     {
         public QuadraticEquation()
         {
@@ -25,6 +25,8 @@ namespace KvadratnaJednadzba
         {
             get { return a; }
             set { a = value; }
+
+
         }
 
         public double B
